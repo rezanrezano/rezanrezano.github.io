@@ -169,3 +169,11 @@ ul {
       padding: 2em;
   }
 
+h1{
+  font-family: 'Anton', sans-serif;
+  color: #660066;
+}
+.rez{
+  font-family: 'Amatic SC', cursive;
+  color: #ffffcc;
+}
