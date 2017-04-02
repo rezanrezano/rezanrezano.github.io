@@ -1,13 +1,24 @@
 var url="https://api.github.com/users/rezanrezano/repos?per_page=5&sort=created";
 function makeAjaxRequest(){
-	$('#result').html('')
-	$.get(url,function(repos){
+	// Should we make the get request or not?
+	var resultHTML = $('#result').html()
+	if(resultHTML==""){
+		var html = "<ul>"
+		$.get(url,function(repos){
 		repos.forEach(function(repo){
 			
 			console.log(repo);
-			$('#result').append(`<a href= '${repo.html_url}' target	="_blank">${repo.name}</a><br>`);
+
+			html += (`<li><a href= '${repo.html_url}' target	="_blank">${repo.name}</a></li>`);
 		})
-	})
+
+		html += "</ul>"
+		$('#result').html(html)
+		})
+	}
+	else{
+		alert('you already got the current projects')
+	}
 }
 $(document).ready(function(){
 	// makeAjaxRequest();
