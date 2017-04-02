@@ -7,18 +7,67 @@
 	<link rel="stylesheet" type="text/css" href="css/projects.css">
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
- <ul class="nav navbar-nav">
- <li><a href="index.html">HomePage</a></li>
-</ul>
-</nav>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">REZAN OTHMAN</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">HomePage</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="skills.html">Skills</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a class="Gtb" href="https://github.com/" title="Github">Github</a></li>
+				<li><a class="fbook" href="https://www.facebook.com/" title="Facebook">Facebook</a></li>
+				<li><a class="LIn" href="https://www.linkedin.com" title="LinkedIn">LinkedIn</a></li>
+			</ul>
 
-<h2>My repositories in Github:</h2> 
-<button class="btt1" type="button">Current</button>  
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>My repositories in Github:</h2> 
+				<button class="btt1" id="btnCurrent" type="button">Current</button>  
+
+			</div>
+			<div class="col-md-6">
+				<h2>My favorite repositories in Github:</h2> 
+				<button class="btt2" type="button">Favorite</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="result">
+			</div>
+			<div class="col-md-6" hidden="" id="divFav" >
+
+				<ul>
+				<li><a href="https://github.com/rezanrezano/exceptional-realty-bootstrapped">exceptional-realty-bootstrapped</a></li>
+			<li><a href="https://github.com/rezanrezano/exceptional-realty-bootstrapped">rezanrezano.github.io</a></li>
+			<li><a href="https://github.com/rezanrezano/exceptional-realty-bootstrapped">my-web-page</a></li>
+			<li><a href="https://github.com/rezanrezano/exceptional-realty-bootstrapped">html-example</a></li><li><a href="https://github.com/rezanrezano/exceptional-realty-bootstrapped">js-tweet-shortener-re-coded-000</a></li>
+			</ul>
+			</div>
+		</div>
+
+	</div>
 
 
-<h2>My favorite repositories in Github:</h2> 
-<button class="btt2" type="button">Favorite</button> <br>
+</div>
+<div class="col-md-6">
+</div>
+</div>
+</div>
+
+
+<br>
+
 <img src="image/3.png">
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/projects.js"></script>
 </body>
 </html>
