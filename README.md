@@ -10,7 +10,7 @@ You can find the information about Rezan here,what he did,his studies,his jobs.
 -------------------------------------------
 #projects:
 here you will find tow parts in his projects.
- firstly:     **current projects** : you will see his repositories on github.
+ firstly:     **current projects** : you will see his 5 most recent GitHub repositories.
 
 secondly:     **favorite projects** : you will see five of his favorite repositories on github.
 

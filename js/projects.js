@@ -1,4 +1,5 @@
 var url="https://api.github.com/users/rezanrezano/repos?per_page=5&sort=created";
+
 function makeAjaxRequest(){
 	// Should we make the get request or not?
 	var resultHTML = $('#result').html()
@@ -9,7 +10,7 @@ function makeAjaxRequest(){
 			
 			console.log(repo);
 
-			html += (`<li><a href= '${repo.html_url}' target	="_blank">${repo.name}</a></li>`);
+			html += (`<li><div class='box'><a href= '${repo.html_url}' target	="_blank">${repo.name}</a></div></li>`);
 		})
 
 		html += "</ul>"
