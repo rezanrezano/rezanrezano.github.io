@@ -161,6 +161,9 @@ ul {
       right: -5px;
       transform: rotate(1deg);
       z-index: -2;
+background-color: #00ffff;
+box-shadow: 8px 8px 10px #aaa;
+
   }
 
   /* Demo specific styles */
@@ -177,3 +180,22 @@ h1{
   font-family: 'Amatic SC', cursive;
   color: #ffffcc;
 }
+
+footer {
+      padding-left: 7%;
+  bottom: -595px;
+    width: 100%;
+    height: 113px;
+    background: #ddd;
+        border-style: solid;
+ border-radius: 25px;
+  }
+  h3{
+font-family: 'Macondo', cursive;
+  }
+  p{
+    font-family: 'Macondo', cursive;
+  }
+  .code{
+    font-family: 'Press Start 2P', cursive;
+  }
