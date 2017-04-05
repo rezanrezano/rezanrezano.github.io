@@ -1,7 +1,6 @@
 var url="https://api.github.com/users/rezanrezano/repos?per_page=5&sort=created";
 
 function makeAjaxRequest(){
-	// Should we make the get request or not?
 	var resultHTML = $('#result').html()
 	if(resultHTML==""){
 		var html = "<ul>"
@@ -10,7 +9,7 @@ function makeAjaxRequest(){
 			
 			console.log(repo);
 
-			html += (`<li><div class='box'><a href= '${repo.html_url}' target	="_blank">${repo.name}</a></div></li>`);
+			html += (`<li><div class='box'><a href= '${repo.html_url}' target	="_blank">${repo.name}</a> <p>Language: ${repo.language}</p> Updated at: ${repo.updated_at}</div></li>`);
 		})
 
 		html += "</ul>"
@@ -21,7 +20,11 @@ function makeAjaxRequest(){
 		alert('you already got the current projects')
 	}
 }
+
 $(document).ready(function(){
 	// makeAjaxRequest();
 	$('#btnCurrent').click(makeAjaxRequest)
+	$('#btnFvorite').click(function(){
+		$('#divFav').fadeIn();
+	})
 })
