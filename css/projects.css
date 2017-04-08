@@ -1,82 +1,88 @@
 body{
 	background-color: #99ff99;
-    font-size: 14px;
-    height: 100%;
-    padding: 2em;
+  font-size: 14px;
+  height: 100%;
+  padding: 2em;
 }
 h2{
-	font-family: 'Anton', sans-serif;
+	font-family: 'Indie Flower', cursive;
+  animation: example 4s reverse ;
+ text-shadow: 2px 2px #ff0000;
+
 }
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    /*background-color:#99ccff;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /*background-color:#99ccff;*/
 }
 
 .btt1{
 
 
-    background-color: #4CAF50; /* Green */
-    border: dotted;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: ;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 8px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    animation: example 4s infinite;
+  background-color: #4CAF50; /* Green */
+  border:solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: ;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: 'BioRhyme', serif;
 }
 .btt2{
-   background-color: #555555;/* Green */
-   border:dotted;
-   color: black;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   border-radius: 8px;
-   -webkit-transition-duration: 0.4s; /* Safari */
-   transition-duration: 0.4s;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ background-color: #555555;/* Green */
+ border:solid;
+ color: black;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 8px;
+ -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ font-family: 'BioRhyme', serif;
 }
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 #result{
-    padding-top: 20px;
+  padding-top: 20px;
 }
 .box{
-    border:1px #fff solid;
-    padding: 5px;
-    background-color: #ddd;
-    margin: 5px;
+  border:1px #fff solid;
+  padding: 5px;
+  background-color: #ddd;
+  margin: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+  border-radius: 8px;
+  font-family: 'Titillium Web', sans-serif;
 }
 .github-img{
-    opacity: 0.25;
+  opacity: 0.25;
 }
 a{
-    color:#333;
+  color:#333;
 }
 @keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+  from {color: #ddd;}
+  to {color: #fff;}
 }
 
-/* The element to apply the animation to */
 
 
-ul{
-    padding:0px;
+ul {
+  padding:0px;
 }
+
