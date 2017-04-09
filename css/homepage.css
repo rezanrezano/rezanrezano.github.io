@@ -46,6 +46,8 @@ ul {
 .title{
   font-family: 'Indie Flower', cursive;
   color: rgb(102, 0, 102);
+  text-align: left;
+  font-size: 100px;
 }
 
 .profile-pic{
@@ -82,12 +84,12 @@ ul {
     z-index: -1000;
   }
 
-  .paper {
+  .container .paper {
     background-color: #fff;
     /* Need position to allow stacking of pseudo-elements */
-    position: relative;
     /* Padding for demo purposes */
-    padding: 30px;
+    margin-top:80px;
+    padding-top:30px;
   }
 
   .paper,
@@ -178,6 +180,7 @@ ul {
   h1{
     font-family: 'Anton', sans-serif;
     color: #660066;
+    text-align: center;
   }
   .rez{
     font-family: 'Amatic SC', cursive;
@@ -207,3 +210,9 @@ ul {
   .code{
     font-family: 'Press Start 2P', cursive;
   }
+  .word{
+    padding: 70px;
+  }
+.welcome{
+  text-align: left;
+}
