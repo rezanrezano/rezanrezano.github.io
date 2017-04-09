@@ -1,9 +1,14 @@
 body{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    color: #333;
+    
     height: 100%;
       padding: 2em;
+     background-color:  #9999FF;
+
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+color: #fff;
 }
 .container {
     padding-right: 15px;
@@ -16,4 +21,13 @@ body{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+.names{
+font-family: 'Concert One', cursive;
+}
+.desc{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+p{
+    text-align: left;
 }

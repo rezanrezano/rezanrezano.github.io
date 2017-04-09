@@ -1,13 +1,11 @@
 {
 	"skills":[
-{
-	"name":"HTML",
-	"description":"vgv hbhab hbxhb hxb"
-},
-{
-	"name":"HTML",
-	"description":"vgv hbhab hbxhb hxb"
-}
-
-	]
+		{"name":"HTML","description":"Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web."},
+		{"name":"CSS","description":"Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language."},
+		{"name":"JS","description":"JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification."},
+		{"name":"JQUERY","description":"jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."},
+		{"name":"AJAX","description":"short for asynchronous JavaScript and XML) is a set of Web development techniques using many Web technologies on the client side to create asynchronous Web applications. "},
+		{"name":"API","description":"a set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."},
+		{"name":"RUBY","description":"Ruby is a programming language from Japan (available at ruby-lang.org) which is revolutionizing the web. The beauty of Ruby is found in its balance between simplicity and power. "}
+	]	
 }

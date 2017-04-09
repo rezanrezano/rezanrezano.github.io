@@ -1,51 +1,51 @@
  body{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    color: #333;
-    height: 100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #333;
+  height: 100%;
 }
 html{
-    height: 100%;
+  height: 100%;
 
 }
 img {
-    width:50%;
+  width:50%;
 }
 p{
 	font-size:18px;
-    margin: 0 0 10px;
-    font-style: italic;
-    font-family: "Times New Roman", Times, serif;
+  margin: 0 0 10px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    /*background-color:#99ccff;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /*background-color:#99ccff;*/
 }
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-    h1{
-        color: rgb(102, 0, 102);
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  h1{
+    color: rgb(102, 0, 102);
 
-    }
+  }
 }
 .title{
-    font-family: 'Indie Flower', cursive;
-    color: rgb(102, 0, 102);
+  font-family: 'Indie Flower', cursive;
+  color: rgb(102, 0, 102);
 }
 
 .profile-pic{
@@ -67,131 +67,139 @@ ul {
   }*/
 
   img.bg {
-      /* Set rules to fill background */
-      min-height: 100%;
-      min-width: 1024px;
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
 
-      /* Set up proportionate scaling */
-      width: 100%;
-      height: auto;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
 
-      /* Set up positioning */
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: -1000;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
   }
 
   .paper {
-      background-color: #fff;
-      /* Need position to allow stacking of pseudo-elements */
-      position: relative;
-      /* Padding for demo purposes */
-      padding: 30px;
+    background-color: #fff;
+    /* Need position to allow stacking of pseudo-elements */
+    position: relative;
+    /* Padding for demo purposes */
+    padding: 30px;
   }
 
   .paper,
   .paper::before,
   .paper::after {
-      /* Add shadow to distinguish sheets from one another */
-      box-shadow: 2px 1px 1px rgba(0,0,0,0.15);
+    /* Add shadow to distinguish sheets from one another */
+    box-shadow: 2px 1px 1px rgba(0,0,0,0.15);
   }
 
   .paper::before,
   .paper::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: #eee;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
   }
 
   /* Second sheet of paper */
   .paper::before {
-      left: 7px;
-      top: 5px;
-      z-index: -1;
+    left: 7px;
+    top: 5px;
+    z-index: -1;
   }
 
   /* Third sheet of paper */
   .paper::after {
-      left: 12px;
-      top: 10px;
-      z-index: -2;
+    left: 12px;
+    top: 10px;
+    z-index: -2;
   }
 
   /* Demo-specific styles */
   body {
-      background-color: #333;
-      padding: 2em;
+    background-color: #333;
+    /*padding: 2em;*/
   }
 
   .paper {
-      background: #fff;
-      padding: 30px;
-      position: relative;
+    background: #fff;
+    padding: 30px;
+    position: relative;
   }
 
   .paper,
   .paper::before,
   .paper::after {
-      /* Styles to distinguish sheets from one another */
-      box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
-      border: 1px solid #bbb;
+    /* Styles to distinguish sheets from one another */
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+    border: 1px solid #bbb;
   }
 
   .paper::before,
   .paper::after {
-      content: "";
-      position: absolute;
-      height: 95%;
-      width: 99%;
-      background-color: #eee;
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 99%;
+    background-color: #eee;
   }
 
   .paper::before {
-      right: 15px;
-      top: 0;
-      transform: rotate(-1deg);
-      z-index: -1;
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
   }
 
   .paper::after {
-      top: 5px;
-      right: -5px;
-      transform: rotate(1deg);
-      z-index: -2;
-background-color: #00ffff;
-box-shadow: 8px 8px 10px #aaa;
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
+    background-color: #00ffff;
+    box-shadow: 8px 8px 10px #aaa;
 
   }
 
   /* Demo specific styles */
   body {
-      background: #333;
-      padding: 2em;
+    background: #333;
+  }
+  .wrapper{
+    padding: 2em;
+
   }
 
-h1{
-  font-family: 'Anton', sans-serif;
-  color: #660066;
-}
-.rez{
-  font-family: 'Amatic SC', cursive;
-  color: #ffffcc;
-}
+  h1{
+    font-family: 'Anton', sans-serif;
+    color: #660066;
+  }
+  .rez{
+    font-family: 'Amatic SC', cursive;
+    color: #ffffcc;
+  }
 
-footer {
-      padding-left: 7%;
-  bottom: -595px;
-    width: 100%;
-    height: 113px;
+  footer {
+    margin: 1px;
+    margin-bottom: 2em;
+    /*width: 100%;*/
     background: #ddd;
-        border-style: solid;
- border-radius: 25px;
+    /*border-style: solid;*/
+    /*border-radius: 25px;*/
+    box-sizing: border-box;
+
+  }
+  footer .row{
+    margin: 0;
+    padding: 0;
   }
   h3{
-font-family: 'Macondo', cursive;
+    font-family: 'Macondo', cursive;
   }
   p{
     font-family: 'Macondo', cursive;

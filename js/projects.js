@@ -9,7 +9,14 @@ function makeAjaxRequest(){
 			
 			console.log(repo);
 
-			html += (`<li><div class='box'><a href= '${repo.html_url}' target	="_blank">${repo.name}</a> <p>Language: ${repo.language}</p> Updated at: ${repo.updated_at} </div></li>`);
+			html += `<li><div class='box'><a href= '${repo.html_url}' target	="_blank">${repo.name}</a>`
+			if (repo.language) {
+				html += `<p>Language: ${repo.language}</p>`
+			}else{
+				html+="<br>"
+			}
+
+			 html+=`Updated at: ${repo.updated_at} </div></li>`;
 		})
 
 		html += "</ul>"
