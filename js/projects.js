@@ -33,5 +33,6 @@ $(document).ready(function(){
 	$('#btnCurrent').click(makeAjaxRequest)
 	$('#btnFvorite').click(function(){
 		$('#divFav').fadeIn();
+		
 	})
 })

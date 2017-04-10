@@ -5,6 +5,7 @@ body{
     padding: 2em;
     background-color: #333;
       }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -31,7 +32,7 @@ button {
     font-size: 18px;
 }
 
-a {
+.card a {
     text-decoration: none;
     font-size: 22px;
     color: black;
@@ -60,3 +61,7 @@ img.bg {
     left: 0;
     z-index: -1000;
   }
+  .fa-custom{
+font-size: 1.6em;
+padding: 0;
+}

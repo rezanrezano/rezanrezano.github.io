@@ -179,7 +179,7 @@ ul {
 
   h1{
     font-family: 'Anton', sans-serif;
-    color: #660066;
+    color: #fff;
     text-align: center;
   }
   .rez{
@@ -212,7 +212,15 @@ ul {
   }
   .word{
     padding: 70px;
+    color: #fff;
   }
 .welcome{
   text-align: left;
+}
+.fa-custom{
+font-size: 1.6em;
+padding: 0;
+}
+.title{
+  color: #fff;
 }
