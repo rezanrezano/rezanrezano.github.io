@@ -68,3 +68,7 @@ padding: 0;
 .title{
     color: #fff;
 }
+.best{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 60px; 
+}
