@@ -7,7 +7,7 @@ function makeAjaxRequest(){
 		$.get(url,function(repos){
 		repos.forEach(function(repo){
 			
-			console.log(repo);
+			// console.log(repo);
 
 			html += `<li><div class='box'><a href= '${repo.html_url}' target	="_blank">${repo.name}</a>`
 			if (repo.language) {
