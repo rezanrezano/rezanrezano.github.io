@@ -1,8 +1,8 @@
 
 function toggleDescription(e){
-
-	$(this).parent().parent().hide();
-	$($(this).parent().parent().siblings()[0]).show();
+	var name = $(this).data("name");
+	$("#" + name + "-profile").toggleClass('hidden')
+	$("#"+ name +"-description").toggleClass("hidden")
 
 }
 
